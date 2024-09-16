@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "biddingservice": "StartDebugging",
+        "gatewayservice": "StartDebugging",
+        "identityservice": "StartDebugging",
+        "invoiceservice": "StartDebugging",
+        "notificationservice": "StartDebugging",
+        "paymentservice": "StartDebugging",
+        "roomservice": "StartDebugging"
+      }
+    }
+  }
+}

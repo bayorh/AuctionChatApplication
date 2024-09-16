@@ -1,0 +1,51 @@
+version: '3.4'
+
+services:
+  mongo: 
+  biddingservice:
+    image: ${DOCKER_REGISTRY-}biddingservice
+    build:
+      context: .
+      dockerfile: BiddingService/Dockerfile
+
+  gatewayservice:
+    image: ${DOCKER_REGISTRY-}gatewayservice
+    build:
+      context: .
+      dockerfile: GateWayService/Dockerfile
+
+
+  identityservice:
+    image: ${DOCKER_REGISTRY-}identityservice
+    build:
+      context: .
+      dockerfile: IdentityService/Dockerfile
+
+
+  invoiceservice:
+    image: ${DOCKER_REGISTRY-}invoiceservice
+    build:
+      context: .
+      dockerfile: InvoiceService/Dockerfile
+
+
+  notificationservice:
+    image: ${DOCKER_REGISTRY-}notificationservice
+    build:
+      context: .
+      dockerfile: NotificationService/Dockerfile
+
+
+  paymentservice:
+    image: ${DOCKER_REGISTRY-}paymentservice
+    build:
+      context: .
+      dockerfile: PaymentService/Dockerfile
+
+
+  roomservice:
+    image: ${DOCKER_REGISTRY-}roomservice
+    build:
+      context: .
+      dockerfile: RoomService/Dockerfile
+
