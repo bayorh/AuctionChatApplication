@@ -7,14 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityService", "Identity
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{082D58DB-98DC-4134-94A5-E2DD8ABFA906}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{D8178F0B-5287-447D-84F2-A8F410D0C862}"
-	ProjectSection(SolutionItems) = preProject
-		.dockerignore = .dockerignore
-		..\..\..\Downloads\async-auction-platform-main\.gitignore = ..\..\..\Downloads\async-auction-platform-main\.gitignore
-		..\..\..\Downloads\async-auction-platform-main\LICENSE = ..\..\..\Downloads\async-auction-platform-main\LICENSE
-		..\..\..\Downloads\async-auction-platform-main\README.md = ..\..\..\Downloads\async-auction-platform-main\README.md
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoomService", "RoomService\RoomService.csproj", "{A634A2C0-3C9B-431F-A280-32FAE36F3B38}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService", "NotificationService\NotificationService.csproj", "{B947DD9B-68DC-4F84-82B1-40ABA3066B6F}"
@@ -30,6 +22,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedFiles", "SharedFiles\SharedFiles.csproj", "{9DBCFEFA-54CA-4D27-B9B5-EB12482399A6}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7F2E9683-BCB1-4E5A-B5BE-B4DC11B768FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution File", "Solution File", "{6F152212-C1E1-4B28-9C21-4AF26CEF14F8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\async-auction-platform-main\.gitignore = ..\..\..\Downloads\async-auction-platform-main\.gitignore
+		..\..\..\Downloads\async-auction-platform-main\LICENSE = ..\..\..\Downloads\async-auction-platform-main\LICENSE
+		..\..\..\Downloads\async-auction-platform-main\README.md = ..\..\..\Downloads\async-auction-platform-main\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +85,7 @@ Global
 		{608D4EAF-2D69-4078-ABF0-2C357B176FEA} = {082D58DB-98DC-4134-94A5-E2DD8ABFA906}
 		{2EB56015-AE68-45BE-B18F-38CE14AFE3C5} = {082D58DB-98DC-4134-94A5-E2DD8ABFA906}
 		{9DBCFEFA-54CA-4D27-B9B5-EB12482399A6} = {082D58DB-98DC-4134-94A5-E2DD8ABFA906}
+		{7F2E9683-BCB1-4E5A-B5BE-B4DC11B768FE} = {6F152212-C1E1-4B28-9C21-4AF26CEF14F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DBE8F077-2286-45C5-9142-EA21E1854E82}
